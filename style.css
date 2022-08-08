@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #000;
+  line-height: 1.6;
+  font-family: "Roboto", sans-serif;
+  background: #e6dada; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #274046,
+    #e6dada
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #274046,
+    #e6dada
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Text Styles */
+
+h1 {
+  color: #000;
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+}
+
+h4 {
+  margin-top: 15px;
+  color: #000;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+/* Layout */
+
+.container {
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.recipe-content.flex {
+  justify-content: center;
+}
+
+/* Navigation & links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-right: 45px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Content */
+
+.logo {
+  margin-left: 30px;
+  width: 60%;
+}
+
+.item {
+  padding: 100px;
+}
+
+.item img {
+  width: 100%;
+}
