@@ -4,59 +4,83 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Pernil</title>
   </head>
   <body>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="mofongo.html">Mofongo</a></li>
-      <li><a href="flan.html">Spanish Flan</a></li>
-    </ul>
+    <div class="container flex">
+      <a href="index.html"
+        ><img
+          class="logo"
+          src="https://res.cloudinary.com/daki9bhap/image/upload/v1659972665/logo.svg"
+          alt="NVoltagee Logo"
+      /></a>
+      <h1>Odin Project Recipes</h1>
+      <nav>
+        <ul class="flex">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="flan.html">Spanish Flan</a></li>
+          <li><a href="mofongo.html">Mofongo</a></li>
+        </ul>
+      </nav>
+    </div>
     <h1>Pernil</h1>
-    <img
-      src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9035872.jpg&w=946&h=946&c=sc&poi=face&q=60"
-      alt="Spanish Flan"
-    />
-    <h4 class="description">Description</h4>
-    <p>
-      Pernil is roasted pork shoulder, seasoned to the max. It is served with
-      rice and beans, salad, or sweet plantains
-    </p>
-    <h4>Ingredients</h4>
-    <ul>
-      <li>10 cloves garlic, or more to taste</li>
-      <li>¼ cup olive oil</li>
-      <li>3 tablespoons white vinegar</li>
-      <li>2 tablespoons dried oregano</li>
-      <li>1 tablespoon salt</li>
-      <li>1 ½ teaspoons ground black pepper</li>
-      <li>5 pounds pork shoulder, trimmed of excess fat</li>
-    </ul>
-    <h4>Instructions</h4>
-    <ol>
-      <li>
-        Combine garlic cloves, olive oil, vinegar, oregano, salt, and black
-        pepper in a mortar and pestle; mash into a paste.
-      </li>
-      <li>
-        Cut deep slits into pork with a small knife. Stuff slits with garlic
-        paste; rub any remaining paste over pork.
-      </li>
-      <li>
-        Place pork in a plastic roasting bag and put in a roasting pan with a
-        rack. Let marinate in the refrigerator, 8 to 48 hours.
-      </li>
-      <li>
-        Take pork out of the refrigerator, uncover, and bring to room
-        temperature, 1 to 2 hours.
-      </li>
-      <li>Preheat the oven to 300 degrees F (150 degrees C).</li>
-      <li>
-        Roast pork skin-side down in the preheated oven until golden brown,
-        about 2 hours. Flip pork and continue roasting, skin-side up, until
-        juices run clear and an instant-read thermometer inserted into the
-        center reads at least 145 degrees F (63 degrees C), 2 to 4 hours more.
-      </li>
-    </ol>
+    <div class="recipe--img--desc-container">
+      <div class="recipe-img">
+        <img
+          src="https://res.cloudinary.com/daki9bhap/image/upload/v1659969142/pernil.jpg"
+          alt="Pernil"
+        />
+      </div>
+      <div class="recipe-desc">
+        <h2>Description</h2>
+        <p class="description">
+          Is a slow-roasted marinated pork leg or pork shoulder. In Latin
+          American countries the dish is commonly shared during Christmas. In
+          Puerto Rico it is typically accompanied by arroz con gandules (rice
+          with pigeon peas).
+        </p>
+      </div>
+    </div>
+    <div class="ingredients--container">
+      <h3>Ingredients</h3>
+      <ul>
+        <li>10 cloves garlic, or more to taste</li>
+        <li>¼ cup olive oil</li>
+        <li>3 tablespoons white vinegar</li>
+        <li>2 tablespoons dried oregano</li>
+        <li>1 tablespoon salt</li>
+        <li>1 ½ teaspoons ground black pepper</li>
+        <li>5 pounds pork shoulder, trimmed of excess fat</li>
+      </ul>
+    </div>
+    <div class="instructions--container">
+      <h3>Instructions</h3>
+      <ol>
+        <li>
+          Combine garlic cloves, olive oil, vinegar, oregano, salt, and black
+          pepper in a mortar and pestle; mash into a paste.
+        </li>
+        <li>
+          Cut deep slits into pork with a small knife. Stuff slits with garlic
+          paste; rub any remaining paste over pork.
+        </li>
+        <li>
+          Place pork in a plastic roasting bag and put in a roasting pan with a
+          rack. Let marinate in the refrigerator, 8 to 48 hours.
+        </li>
+        <li>
+          Take pork out of the refrigerator, uncover, and bring to room
+          temperature, 1 to 2 hours.
+        </li>
+        <li>Preheat the oven to 300 degrees F (150 degrees C).</li>
+        <li>
+          Roast pork skin-side down in the preheated oven until golden brown,
+          about 2 hours. Flip pork and continue roasting, skin-side up, until
+          juices run clear and an instant-read thermometer inserted into the
+          center reads at least 145 degrees F (63 degrees C), 2 to 4 hours more.
+        </li>
+      </ol>
+    </div>
   </body>
 </html>
